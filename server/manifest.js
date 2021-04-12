@@ -45,7 +45,7 @@ module.exports = new Confidence.Store({
                             client: 'sqlite3',
                             useNullAsDefault: true,     // Suggested for sqlite3
                             connection: {
-                                filename: ':memory:'
+                                filename: 'hapi-batt.db'
                             },
                             migrations: {
                                 stub: Schwifty.migrationsStubPath
@@ -63,6 +63,14 @@ module.exports = new Confidence.Store({
                     $default: '@hapipal/hpal-debug',
                     production: Toys.noop
                 }
+            },/*
+            {
+                plugin: './plugins/swagger',
+                options: {}
+            },*/
+            {
+                plugin: 'blipp',
+                options: {}
             }
         ]
     }

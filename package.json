@@ -11,13 +11,15 @@
   },
   "scripts": {
     "start": "node server",
-    "test": "lab -a @hapi/code -L",
+    "dev": "nodemon server/index.js",
+    "test": "lab -a @hapi/code -I \"__core-js_shared__,CSS,regeneratorRuntime,core\" -L",
     "lint": "eslint ."
   },
   "dependencies": {
     "@hapi/boom": "9.x.x",
     "@hapipal/haute-couture": "4.x.x",
     "@hapipal/schwifty": "6.x.x",
+    "blipp": "^4.0.2",
     "joi": "17.x.x",
     "objection": "2.x.x"
   },
@@ -31,7 +33,9 @@
     "@hapi/glue": "8.x.x",
     "@hapi/hapi": "20.x.x",
     "@hapi/hoek": "9.x.x",
+    "@hapi/inert": "6.x.x",
     "@hapi/lab": "24.x.x",
+    "@hapi/vision": "6.x.x",
     "@hapipal/confidence": "6.x.x",
     "@hapipal/hpal": "3.x.x",
     "@hapipal/hpal-debug": "2.x.x",
@@ -40,6 +44,7 @@
     "dotenv": "8.x.x",
     "eslint": "7.x.x",
     "exiting": "6.x.x",
+    "hapi-swagger": "14.x.x",
     "knex": "0.21.x",
     "sqlite3": "5.x.x"
   }

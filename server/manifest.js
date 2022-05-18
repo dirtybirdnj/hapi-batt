@@ -60,11 +60,11 @@ module.exports = new Confidence.Store({
                     $default: '@hapipal/hpal-debug',
                     production: Toys.noop
                 }
-            },/*
+            },
             {
                 plugin: './plugins/swagger',
                 options: {}
-            },*/
+            },
             {
                 plugin: 'blipp',
                 options: {}

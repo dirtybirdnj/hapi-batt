@@ -7,7 +7,7 @@
 
 `npm install`
 
-`nodemon /server/index.js` (aliased below)
+`npm run develop`
 
 `npx hpal make model Chargers`
 
@@ -18,5 +18,3 @@
 `npx knex migrate:latest`
 
 `npx knex migrate:rollback`
-
-`npm run develop`

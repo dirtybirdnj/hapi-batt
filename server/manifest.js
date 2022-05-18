@@ -18,15 +18,11 @@ module.exports = new Confidence.Store({
             $default: 3000
         },
         debug: {
-            request: ['*']
-            // $filter: 'NODE_ENV',
-            // $default: {
-            //     log: ['error', 'start'],
-            //     request: ['error']
-            // },
-            // production: {
-            //     request: ['implementation']
-            // }
+            $filter: 'NODE_ENV',
+            development: {
+                log: ['error', 'implementation', 'internal'],
+                request: ['error', 'implementation', 'internal']
+            }
         }
     },
     register: {

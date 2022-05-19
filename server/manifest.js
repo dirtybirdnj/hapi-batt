@@ -32,6 +32,10 @@ module.exports = new Confidence.Store({
                 options: {}
             },
             {
+                plugin: '@hapipal/lalalambda',
+                options: { }
+            },
+            {
                 plugin: '@hapipal/schwifty',
                 options: {
                     $filter: 'NODE_ENV',

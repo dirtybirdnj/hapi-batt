@@ -5,11 +5,11 @@ service: hapi-batt
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
 
 plugins:
   - '@hapipal/lalalambda'
 
 custom:
   lalalambda:
-    serverPath: 'server/index.js' 
+    serverPath: 'server/index.js'

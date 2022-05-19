@@ -37,3 +37,8 @@ TODO: SEEDING
 `npx hpal make route aircraft`
 
 `npx knex migrate:make add-aircraft`
+
+Plugins TODO:
+https://www.serverless.com/plugins/serverless-plugin-aws-alerts -> Email on 500 errors
+https://www.serverless.com/plugins/serverless-plugin-log-subscription -> Pipe output to cloudwatch
+https://www.npmjs.com/package/serverless-basic-authentication -> auth

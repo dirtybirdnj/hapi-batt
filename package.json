@@ -24,6 +24,7 @@
     "@hapipal/schwifty": "6.x.x",
     "blipp": "^4.0.2",
     "joi": "17.x.x",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "objection": "2.x.x"
   },

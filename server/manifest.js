@@ -53,6 +53,35 @@ module.exports = new Confidence.Store({
                             }
                         }
                     },
+                    local: {
+                        migrateOnStart: true,
+                        knex: {
+                            client: 'sqlite3',
+                            useNullAsDefault: true,     // Suggested for sqlite3
+                            connection: {
+                                filename: 'hapi-batt.db'
+                            },
+                            migrations: {
+                                stub: Schwifty.migrationsStubPath
+                            }
+                        }
+                    },
+                    development: {
+                        migrateOnStart: false,
+                        knex: {
+                            client: 'mysql',
+                            connection: {
+                                host: process.env.AWS_RDS_ENDPOINT,
+                                port: 3306,
+                                user: process.env.AWS_RDS_USERNAME,
+                                password: process.env.AWS_RDS_PASSWORD,
+                                database: process.env.AWS_RDS_DATABASE
+                            },
+                            migrations: {
+                                stub: Schwifty.migrationsStubPath
+                            }
+                        }
+                    },
                     production: {
                         migrateOnStart: false
                     }

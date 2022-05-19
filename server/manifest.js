@@ -33,7 +33,9 @@ module.exports = new Confidence.Store({
             },
             {
                 plugin: '@hapipal/lalalambda',
-                options: { }
+                options: {
+                    lambdaify: true
+                }
             },
             {
                 plugin: '@hapipal/schwifty',

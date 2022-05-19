@@ -19,6 +19,11 @@ A coding test solution that fulfills the following requirements:
 
 `npm run develop`
 
+## Deploying it via Serverless / AWS
+
+This works locally, but the build is currently breaking for ci/cd on serverless.com dashboard
+`serverless deploy --stage dev --region us-east-1 --force --org vtapi --app hapi-batt --verbose`
+
 ## Making Model / Migration changes
 
 

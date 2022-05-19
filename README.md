@@ -2,9 +2,9 @@
 
 A coding test solution that fulfills the following requirements:
 
-- [x] 1. IaC Deployed to AWS (using Serverless.com + Hapijs + Lalalambda)
+- [x] 1. IaC Deployed to AWS (using [Serverless.com](https://github.com/serverless/serverless) + [Hapijs](https://github.com/hapijs/hapi) + [Lalalambda](https://github.com/hapipal/lalalambda))
 - [x] 2. Integration with MySQL - [Objection ORM](https://vincit.github.io/objection.js/_) + Knex
-- [X] 3. CRUD Operations
+- [X] 3. [CRUD Operations](https://github.com/dirtybirdnj/hapi-batt/blob/main/lib/routes/chargers.js)
 - [ ] 4. Auth required for Create, Read, Delete operations
 - [x] 5. No auth for list / read
 - [ ] 6. API Errors logged for troubleshooting
@@ -39,9 +39,6 @@ TODO: SEEDING
 `npx knex migrate:make add-aircraft`
 
 Plugins TODO:
+
 https://www.serverless.com/plugins/serverless-plugin-aws-alerts -> Email on 500 errors
 https://www.serverless.com/plugins/serverless-plugin-log-subscription -> Pipe output to cloudwatch
-
-Two auth options for securing routes 🤔
-https://www.npmjs.com/package/serverless-basic-authentication -> auth
-https://www.serverless.com/plugins/serverless-justauthenticateme-plugin -> auth

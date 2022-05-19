@@ -191,7 +191,11 @@
     "configValidationMode": "warn",
     "serviceFilename": "serverless.yml",
     "initialServerlessConfig": {
-      "service": "hapi-batt",
+      "org": "vtapi",
+      "app": "hapi-batt",
+      "service": {
+        "$ref": "$[\"service\"][\"serviceObject\"]"
+      },
       "provider": {
         "$ref": "$[\"service\"][\"provider\"]"
       },
@@ -200,9 +204,7 @@
       },
       "custom": {
         "$ref": "$[\"service\"][\"custom\"]"
-      },
-      "org": "vtapi",
-      "app": "hapi-batt"
+      }
     },
     "app": "hapi-batt",
     "org": "vtapi",
@@ -213,7 +215,7 @@
     "appUid": "C4zKwjXgCTRpP1wnvM"
   },
   "package": {
-    "artifactDirectoryName": "serverless/hapi-batt/dev/1652931049024-2022-05-19T03:30:49.024Z",
+    "artifactDirectoryName": "serverless/hapi-batt/dev/1652980209354-2022-05-19T17:10:09.354Z",
     "artifact": ""
   }
 }

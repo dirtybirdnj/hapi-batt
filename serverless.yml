@@ -5,7 +5,7 @@ service: hapi-batt
 
 provider:
   name: aws
-  runtime: nodejs16.x
+  runtime: nodejs12.x
 
 plugins:
   - '@hapipal/lalalambda'

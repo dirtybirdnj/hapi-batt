@@ -1,13 +1,13 @@
-![hapi-batt](https://dirtybirdnj.github.io/hapi-batt/hapi-batt-text.png)
+# hapi-batt 🛬🔌⚡️🛫🔋😎
 
-# 🛬🔌⚡️🛫🔋😎
+---
 
-A coding test solution that fulfills the following requirements:
+This repo is the solution to a coding test that fulfills the following requirements:
 
 - [x] 1. IaC Deployed to AWS (using [Serverless.com](https://github.com/serverless/serverless) + [Hapijs](https://github.com/hapijs/hapi) + [Lalalambda](https://github.com/hapipal/lalalambda))
 - [x] 2. Integration with MySQL - [Objection ORM](https://vincit.github.io/objection.js/_) + [Knex](http://knexjs.org/)
 - [X] 3. [CRUD Operations](https://github.com/dirtybirdnj/hapi-batt/blob/main/lib/routes/chargers.js)
-- [ ] 4. Auth required for Create, Read, Delete operations
+- [ ] 4. Auth required for Create, Update, Delete operations
 - [x] 5. No auth for list / read
 - [ ] 6. API Errors logged for troubleshooting
 - [ ] 7. Alerts sent (email?) for any 500 err

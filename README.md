@@ -26,7 +26,8 @@ This repo is the solution to a coding test that fulfills the following requireme
 ENV Variables Required:
 ```
 PORT=3000
-NODE_ENV=development
+NODE_ENV=development <- this uses knex / mysql and creds below
+#NODE_ENV=local <- this uses a local SQLite .db file
 AWS_RDS_ENDPOINT=*.us-east-1.rds.amazonaws.com
 AWS_RDS_DATABASE=battery-status
 AWS_RDS_USERNAME=

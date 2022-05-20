@@ -1,9 +1,11 @@
-# hapi-batt 🛬🔌⚡️🛫🔋😎
+![hapi-batt](https://dirtybirdnj.github.io/hapi-batt/hapi-batt-text.png)
+
+# 🛬🔌⚡️🛫🔋😎
 
 A coding test solution that fulfills the following requirements:
 
 - [x] 1. IaC Deployed to AWS (using [Serverless.com](https://github.com/serverless/serverless) + [Hapijs](https://github.com/hapijs/hapi) + [Lalalambda](https://github.com/hapipal/lalalambda))
-- [x] 2. Integration with MySQL - [Objection ORM](https://vincit.github.io/objection.js/_) + Knex
+- [x] 2. Integration with MySQL - [Objection ORM](https://vincit.github.io/objection.js/_) + [Knex](http://knexjs.org/)
 - [X] 3. [CRUD Operations](https://github.com/dirtybirdnj/hapi-batt/blob/main/lib/routes/chargers.js)
 - [ ] 4. Auth required for Create, Read, Delete operations
 - [x] 5. No auth for list / read
@@ -17,7 +19,7 @@ A coding test solution that fulfills the following requirements:
 
 `npm install`
 
-`npm run develop`
+`npm run dev`
 
 ## Deploying it via Serverless / AWS
 

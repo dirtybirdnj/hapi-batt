@@ -6,8 +6,8 @@ This repo is the solution to a coding test that fulfills the following requireme
 - [x] 1. IaC Deployed to AWS (using [Serverless.com](https://github.com/serverless/serverless) + [Hapijs](https://github.com/hapijs/hapi) + [Lalalambda](https://github.com/hapipal/lalalambda))
 - [x] 2. Integration with MySQL - [Objection ORM](https://vincit.github.io/objection.js/_) + [Knex](http://knexjs.org/)
 - [X] 3. [CRUD Operations](https://github.com/dirtybirdnj/hapi-batt/blob/main/lib/routes/chargers.js)
-- [x] 4. Auth required for Create, Update, Delete operations
-- [x] 5. No auth for list / read
+- [x] 4. [Auth required for Create, Update, Delete operations](https://github.com/dirtybirdnj/hapi-batt/blob/main/server/plugins/auth.js)
+- [x] 5. [No auth for list / read](https://github.com/dirtybirdnj/hapi-batt/blob/main/lib/routes/chargers.js#L9-L26=)
 - [ ] 6. API Errors logged for troubleshooting
 - [ ] 7. Alerts sent (email?) for any 500 err
 - [x] 8. Swagger OpenAPI

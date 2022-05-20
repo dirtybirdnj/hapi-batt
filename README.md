@@ -37,11 +37,11 @@ API_KEY=ACA8675309DAD
 
 ### Deploying it via Serverless / AWS
 
-This works locally, but the build is currently breaking for ci/cd on serverless.com dashboard
+This worked locally, but the build is currently breaking for both ci/cd and local CLI deploys 👎☹️
+
 `serverless deploy --stage dev --region us-east-1 --force --org vtapi --app hapi-batt --verbose`
 
 ### Making Model / Migration changes
-
 
 `npx knex migrate:latest`
 

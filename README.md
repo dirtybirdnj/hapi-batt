@@ -1,7 +1,5 @@
 # hapi-batt 🛬🔌⚡️🛫🔋😎
 
-## https://f5xlci2jp6.execute-api.us-east-1.amazonaws.com/dev
-
 ### Overview:
 
 This repo is the solution to a coding test that fulfills the following requirements:

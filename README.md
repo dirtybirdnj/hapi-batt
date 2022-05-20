@@ -21,6 +21,19 @@ This repo is the solution to a coding test that fulfills the following requireme
 
 `npm run dev`
 
+`touch server/.env` <- .env goes here not in project root
+
+ENV Variables Required:
+```
+PORT=3000
+NODE_ENV=development
+AWS_RDS_ENDPOINT=*.us-east-1.rds.amazonaws.com
+AWS_RDS_DATABASE=battery-status
+AWS_RDS_USERNAME=
+AWS_RDS_PASSWORD=
+API_KEY=ACA8675309DAD
+```
+
 ### Deploying it via Serverless / AWS
 
 This works locally, but the build is currently breaking for ci/cd on serverless.com dashboard

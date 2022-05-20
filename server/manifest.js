@@ -27,10 +27,10 @@ module.exports = new Confidence.Store({
     },
     register: {
         plugins: [
-            // {
-            //     plugin: './plugins/auth', //auth strategy
-            //     options: {}
-            // },
+            {
+                plugin: './plugins/auth', //auth strategy
+                options: {}
+            },
             {
                 plugin: '../lib', // Main plugin
                 options: {}

@@ -9,7 +9,3 @@ provider:
 
 plugins:
   - '@hapipal/lalalambda'
-
-custom:
-  lalalambda:
-    serverPath: 'server/index.js'

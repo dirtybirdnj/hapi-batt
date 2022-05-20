@@ -1,5 +1,8 @@
 # hapi-batt 🛬🔌⚡️🛫🔋😎
 
+## https://f5xlci2jp6.execute-api.us-east-1.amazonaws.com/dev
+
+### Overview:
 
 This repo is the solution to a coding test that fulfills the following requirements:
 
@@ -12,7 +15,7 @@ This repo is the solution to a coding test that fulfills the following requireme
 - [ ] 7. Alerts sent (email?) for any 500 err
 - [x] 8. Swagger OpenAPI
 
-## Getting it working locally
+### Getting it working locally
 
 `git clone git@github.com:dirtybirdnj/hapi-batt.git`
 
@@ -20,12 +23,12 @@ This repo is the solution to a coding test that fulfills the following requireme
 
 `npm run dev`
 
-## Deploying it via Serverless / AWS
+### Deploying it via Serverless / AWS
 
 This works locally, but the build is currently breaking for ci/cd on serverless.com dashboard
 `serverless deploy --stage dev --region us-east-1 --force --org vtapi --app hapi-batt --verbose`
 
-## Making Model / Migration changes
+### Making Model / Migration changes
 
 
 `npx knex migrate:latest`

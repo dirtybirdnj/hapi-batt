@@ -255,7 +255,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/hapi-batt/dev/1652981336151-2022-05-19T17:28:56.151Z/hapi-batt.zip"
+          "S3Key": "serverless/hapi-batt/dev/1653059531843-2022-05-20T15:12:11.843Z/hapi-batt.zip"
         },
         "Handler": "s_server.handler",
         "Runtime": "nodejs12.x",
@@ -280,7 +280,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/hapi-batt/dev/1652981336151-2022-05-19T17:28:56.151Z/hapi-batt.zip"
+          "S3Key": "serverless/hapi-batt/dev/1653059531843-2022-05-20T15:12:11.843Z/hapi-batt.zip"
         },
         "Handler": "s_list_chargers.handler",
         "Runtime": "nodejs12.x",
@@ -305,7 +305,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/hapi-batt/dev/1652981336151-2022-05-19T17:28:56.151Z/hapi-batt.zip"
+          "S3Key": "serverless/hapi-batt/dev/1653059531843-2022-05-20T15:12:11.843Z/hapi-batt.zip"
         },
         "Handler": "s_create_charger.handler",
         "Runtime": "nodejs12.x",
@@ -330,7 +330,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/hapi-batt/dev/1652981336151-2022-05-19T17:28:56.151Z/hapi-batt.zip"
+          "S3Key": "serverless/hapi-batt/dev/1653059531843-2022-05-20T15:12:11.843Z/hapi-batt.zip"
         },
         "Handler": "s_edit_charger.handler",
         "Runtime": "nodejs12.x",
@@ -355,7 +355,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/hapi-batt/dev/1652981336151-2022-05-19T17:28:56.151Z/hapi-batt.zip"
+          "S3Key": "serverless/hapi-batt/dev/1653059531843-2022-05-20T15:12:11.843Z/hapi-batt.zip"
         },
         "Handler": "s_delete_charger.handler",
         "Runtime": "nodejs12.x",
@@ -373,54 +373,54 @@
         "DeleteDashchargerLogGroup"
       ]
     },
-    "ListDashchargersLambdaVersiong9WndKWTuL3NhBnEum0vwAr3TQw1aed0Yzl14LiPg": {
+    "ListDashchargersLambdaVersion6iYOJGrkMzHQ1aeE7FcVCW5J558yonngftxyxqeEqqM": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ListDashchargersLambdaFunction"
         },
-        "CodeSha256": "imWAbkDrOBZtHPzcAgXhUFoTm9q98Z4cwlOjacubBT4="
+        "CodeSha256": "hmYwtxWkV9g0q44wIIH6/kezQ25475ZMwbgD5nLwhb8="
       }
     },
-    "CreateDashchargerLambdaVersionMUOUsN6qnOxiTpw0uPGIA6Z25OwcntthcZ0O7Ln4": {
+    "CreateDashchargerLambdaVersionKnhD9Hqsm6qsdd7pmlLNTNR9vcu8CzMpSvBHkRVXY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateDashchargerLambdaFunction"
         },
-        "CodeSha256": "imWAbkDrOBZtHPzcAgXhUFoTm9q98Z4cwlOjacubBT4="
+        "CodeSha256": "hmYwtxWkV9g0q44wIIH6/kezQ25475ZMwbgD5nLwhb8="
       }
     },
-    "EditDashchargerLambdaVersionZiCid2tjIfgoklaUSp06KkQcX4AcLF4sf713sUx3s": {
+    "EditDashchargerLambdaVersionZOey3rUd6VyPgYXTFHm0YUrNdnBWcnBWdTBQxKV1e8s": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "EditDashchargerLambdaFunction"
         },
-        "CodeSha256": "imWAbkDrOBZtHPzcAgXhUFoTm9q98Z4cwlOjacubBT4="
+        "CodeSha256": "hmYwtxWkV9g0q44wIIH6/kezQ25475ZMwbgD5nLwhb8="
       }
     },
-    "DeleteDashchargerLambdaVersionOr3MT2KoQFwphNMgH6P9ln05LE6TE3ofPRww8CWx3gY": {
+    "DeleteDashchargerLambdaVersionl8Qrk2dpbbVeAOgNZTkr1EV0Q9J5HiSMMGzA2H0Vkg": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "DeleteDashchargerLambdaFunction"
         },
-        "CodeSha256": "imWAbkDrOBZtHPzcAgXhUFoTm9q98Z4cwlOjacubBT4="
+        "CodeSha256": "hmYwtxWkV9g0q44wIIH6/kezQ25475ZMwbgD5nLwhb8="
       }
     },
-    "ServerLambdaVersionCI2RkafOFrPcoewcE4WiiXhTcFWClHycV9sooCksO0": {
+    "ServerLambdaVersionHobC5dKbX6teTBCpud0LYBj7QwvHbfz6KTYXcucIFY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ServerLambdaFunction"
         },
-        "CodeSha256": "imWAbkDrOBZtHPzcAgXhUFoTm9q98Z4cwlOjacubBT4="
+        "CodeSha256": "hmYwtxWkV9g0q44wIIH6/kezQ25475ZMwbgD5nLwhb8="
       }
     },
     "ApiGatewayRestApi": {
@@ -813,7 +813,7 @@
         "DeleteDashchargerLambdaPermissionApiGateway"
       ]
     },
-    "ApiGatewayDeployment1652981317389": {
+    "ApiGatewayDeployment1653059515697": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -1124,7 +1124,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/hapi-batt/dev/1652981336151-2022-05-19T17:28:56.151Z/custom-resources.zip"
+          "S3Key": "serverless/hapi-batt/dev/1653059531843-2022-05-20T15:12:11.843Z/custom-resources.zip"
         },
         "FunctionName": "hapi-batt-dev-custom-resource-apigw-cw-role",
         "Handler": "apiGatewayCloudWatchRole/handler.handler",
@@ -1226,7 +1226,7 @@
     "ListDashchargersLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ListDashchargersLambdaVersiong9WndKWTuL3NhBnEum0vwAr3TQw1aed0Yzl14LiPg"
+        "Ref": "ListDashchargersLambdaVersion6iYOJGrkMzHQ1aeE7FcVCW5J558yonngftxyxqeEqqM"
       },
       "Export": {
         "Name": "sls-hapi-batt-dev-ListDashchargersLambdaFunctionQualifiedArn"
@@ -1235,7 +1235,7 @@
     "CreateDashchargerLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateDashchargerLambdaVersionMUOUsN6qnOxiTpw0uPGIA6Z25OwcntthcZ0O7Ln4"
+        "Ref": "CreateDashchargerLambdaVersionKnhD9Hqsm6qsdd7pmlLNTNR9vcu8CzMpSvBHkRVXY"
       },
       "Export": {
         "Name": "sls-hapi-batt-dev-CreateDashchargerLambdaFunctionQualifiedArn"
@@ -1244,7 +1244,7 @@
     "EditDashchargerLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "EditDashchargerLambdaVersionZiCid2tjIfgoklaUSp06KkQcX4AcLF4sf713sUx3s"
+        "Ref": "EditDashchargerLambdaVersionZOey3rUd6VyPgYXTFHm0YUrNdnBWcnBWdTBQxKV1e8s"
       },
       "Export": {
         "Name": "sls-hapi-batt-dev-EditDashchargerLambdaFunctionQualifiedArn"
@@ -1253,7 +1253,7 @@
     "DeleteDashchargerLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "DeleteDashchargerLambdaVersionOr3MT2KoQFwphNMgH6P9ln05LE6TE3ofPRww8CWx3gY"
+        "Ref": "DeleteDashchargerLambdaVersionl8Qrk2dpbbVeAOgNZTkr1EV0Q9J5HiSMMGzA2H0Vkg"
       },
       "Export": {
         "Name": "sls-hapi-batt-dev-DeleteDashchargerLambdaFunctionQualifiedArn"
@@ -1262,7 +1262,7 @@
     "ServerLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ServerLambdaVersionCI2RkafOFrPcoewcE4WiiXhTcFWClHycV9sooCksO0"
+        "Ref": "ServerLambdaVersionHobC5dKbX6teTBCpud0LYBj7QwvHbfz6KTYXcucIFY"
       },
       "Export": {
         "Name": "sls-hapi-batt-dev-ServerLambdaFunctionQualifiedArn"
